@@ -26,6 +26,10 @@ Necessário realizar as instalações:
 - [Git](https://git-scm.com/)
 - [Yarn](https://classic.yarnpkg.com)
 
+---
+
+## Configuração do backend
+
 É preciso rodar o backend localmente:
 
 ### **Clone o backend**
@@ -33,6 +37,7 @@ Necessário realizar as instalações:
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
 $ git clone https://github.com/filipesalesaraujo/ignite-reactjs-auth-backend.git
+
 # Entre na pasta do repositório clonado
 $ cd ignite-reactjs-auth-backend
 ```
@@ -48,6 +53,11 @@ $ yarn dev
 
 ```
 
+---
+
+## Configuração do projeto
+
+
 Com o backend rodando em sua máquina, inicie o projeto nextauh:
 
 ### **Clone do projeto**
@@ -55,6 +65,7 @@ Com o backend rodando em sua máquina, inicie o projeto nextauh:
 ```bash
 # Execute o comando git clone para realizar o clone do repositório
 $ git clone https://github.com/filipesalesaraujo/nextauth.git
+
 # Entre na pasta do repositório clonado
 $ cd nextauth
 ```
