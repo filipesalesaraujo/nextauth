@@ -32,7 +32,7 @@ api.interceptors.response.use(
             setCookie(
               undefined,
               "nextauth.refreshToken",
-              response.data.refrashToken,
+              response.data.refreshToken,
               {
                 maxAge: 60 * 60 * 24 * 30, // 30 days
                 path: "/",
